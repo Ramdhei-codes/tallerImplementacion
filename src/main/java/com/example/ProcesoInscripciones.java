@@ -1,5 +1,6 @@
 package com.example;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -8,7 +9,8 @@ public class ProcesoInscripciones {
     private LectorArchivo lector;
 
     public List<String> procesarArchivo(String ruta) {
-
+        List<String> mi_lista = new ArrayList<String>();
+        return mi_lista;
     }
 
     private void procesarLinea(String linea) {
@@ -16,6 +18,6 @@ public class ProcesoInscripciones {
     }
 
     private Estudiante buscarEstudiante(String cedula) {
-
+        return new Estudiante("", "");
     }
 }
