@@ -13,7 +13,15 @@ public class Estudiante {
     }
 
     public boolean adicionarMateria(String codigoMateria){
-        return false;
+        return this.codigoMaterias.add(codigoMateria);
+    }
+
+    public Set<String> getCodigoMaterias() {
+        return codigoMaterias;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 
     @Override
